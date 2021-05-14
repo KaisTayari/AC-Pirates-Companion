@@ -1,0 +1,5 @@
+export const MainBG="#edf2f4"
+export const mainRed="#d90429"
+export const lightRed="#ef233c"
+export const LightGrey="#8d99ae"
+export const DarkGrey="#2B2D42"
