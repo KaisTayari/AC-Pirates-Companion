@@ -9,7 +9,7 @@ import {
 } from "react-native";
 import Header from "../components/Header";
 import ACPLogo from "../components/ACPLogo";
-import { MainBG } from "../../constants/themes";
+import { MainBG,mainRed } from "../../constants/themes";
 import SubmitButton from "../components/SubmitButton";
 import InputBar from "../components/InputBar";
 import { useNavigation } from "@react-navigation/native";
@@ -19,7 +19,7 @@ export default function LoginScreen() {
   const [number, onChangeNumber] = React.useState(null);
   return (
     <View style={styles.container}>
-      <StatusBar style="auto" hidden={true} />
+     <StatusBar style="auto" backgroundColor={mainRed} />
         <Header/>
       <View style={{ paddingTop: "20%" }}>
         <Text style={{ marginLeft: 15 }}>E-mail</Text>

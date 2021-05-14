@@ -3,7 +3,7 @@ import Svg, { Rect, Path } from "react-native-svg";
 import { View, TextInput, StyleSheet } from "react-native";
 import { DarkGrey } from "../../constants/themes";
 function InputBar(props) {
-  const [text, onChangeText] = React.useState("Useless Text");
+  const [text, onChangeText] = React.useState("Placeholder Text");
   return (
     <View>
       {props.isSecure && (
